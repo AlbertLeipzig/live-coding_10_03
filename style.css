@@ -1,7 +1,82 @@
-div {
-    border: 1px solid black;
-    background-color: lightblue;
+:root{
+  margin : 0;
+  padding : 0;
+  box-sizing : border-box;
+  font-size : 62.5%;
 }
+
+
+h1 {
+  font-size : 3.2rem;
+  font-weight : 700;
+  text-align : center;
+  color : #4c4c4c;
+  margin-bottom : 3em;
+}
+
+h4 {
+  font-size : 2.1rem;
+  font-weight : 700;
+}
+
+p, label, span {
+  font-size : 1.6rem;
+  margin  : .6em ;
+}
+
+
+input {
+  border : none;
+  border-bottom : 1px solid black;
+}
+
+button {
+  border : none;
+  background-color: lightblue;
+  margin: 2vw;
+  width : fit-content;
+}
+
+
 form {
-    border: 1px solid red;
+  display : flex;
+  justify-content : space-between;
+  align-items : center;
+  max-width : 950px;
+  margin : 0 auto;
 }
+
+.card {
+  width : 300px;
+  aspect-ratio : 1/1;
+  display : flex;
+  flex-direction : column;
+  align-items : center;
+  justify-content : space-between;
+  border : none;
+  border-radius : 5%;
+  overflow : hidden;
+  padding-bottom : 100px;
+  background-color : lightblue;
+}
+
+img {
+  width : 100%;
+  aspect-ratio: 16 / 9;
+  object-fit : cover;
+}
+
+.card__container {
+  display : flex;
+  justify-content : center;
+  align-items : center;
+  flex-wrap : wrap;
+  gap : 2vh;
+  margin : 0 auto;
+  width : fit-content;
+}
+/* 
+body {
+  display : grid;
+  place-items : center;
+} */
